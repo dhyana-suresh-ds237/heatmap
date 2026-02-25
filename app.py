@@ -78,7 +78,7 @@ sns.heatmap(
     annot=show_values,
     ax=ax
 )
-ax.set_title(f"Top {top_n} Markers by Diagnosis (include_other={include_other})")
+ax.set_title(f"Top {top_n} Markers by Diagnosis )")
 ax.set_xlabel("Marker")
 ax.set_ylabel("Diagnosis")
 plt.tight_layout()
