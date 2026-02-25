@@ -22,7 +22,7 @@ def load_data(path):
 
     return df
 
-df = load_data("Final_Balanced_Autoimmune_Disorder_Dataset.csv")
+df = load_data("Final_Balanced_Autoimmune_Disorder_Dataset (4).csv")
 
 st.title("Autoimmune Dataset EDA: Top Marker Heatmap Explorer")
 
