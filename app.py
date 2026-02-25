@@ -24,7 +24,7 @@ def load_data(path):
 
 df = load_data("Final_Balanced_Autoimmune_Disorder_Dataset (4).csv")
 
-st.title("Autoimmune Dataset EDA: Top Marker Heatmap Explorer")
+st.title("Autoimmune Dataset")
 
 target_col = "Diagnosis"
 if target_col not in df.columns:
